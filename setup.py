@@ -22,7 +22,7 @@ setup(
     author='Tony Rintala',
     author_email='rintala.tony@gmail.com',
     url='https://github.com/kuviokelluja/DefuseZip',
-    packages=find_packages(include=['DefuseZip','DefuseZip.*']),
+    packages=find_packages(include=['DefuseZip', 'DefuseZip.*']),
     install_requires=['psutil==5.8.0', 'loguru<1.0.0'],
     python_requires=">=3.7",
     entry_points={
